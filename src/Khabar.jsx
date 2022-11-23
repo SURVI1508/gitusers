@@ -6,6 +6,10 @@ const Khabar = () => {
     const submit = () => {
 
 
+
+        ////
+
+
         fetch(`https://newsapi.org/v2/everything?q=apple&from=2022-11-15&to=2022-11-15&sortBy=popularity&apiKey=c078f1fa5a19429296aa05bb01c75218`)
             .then((response) => {
                 return response.json()
