@@ -5,6 +5,7 @@ import Khabar from './Khabar';
 import Gituser from './Gituser';
 import News from './News';
 import Weather from './Weather';
+import Api from './Api';
 
 
 ReactDOM.render(
@@ -14,6 +15,7 @@ ReactDOM.render(
     {/* <News />
     <Khabar />
     <Movie /> */}
+    <Api/>
   </>
 
   , document.getElementById("root")
