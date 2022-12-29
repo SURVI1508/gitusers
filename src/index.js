@@ -15,7 +15,7 @@ ReactDOM.render(
     {/* <News />
     <Khabar />
     <Movie /> */}
-    <Api/>
+    {/* <Api/> */}
   </>
 
   , document.getElementById("root")
